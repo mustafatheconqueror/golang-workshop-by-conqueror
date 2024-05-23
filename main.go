@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	. "github.com/MasterMara/golang-workshop/pointers"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println("************************ Fun With Pointers ************************")
+
+	PointersIntro()
+	//PointersAreJustVariables()
 }
