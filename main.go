@@ -8,6 +8,17 @@ import (
 func main() {
 	fmt.Println("************************ Fun With Pointers ************************")
 
-	PointersIntro()
+	//Finished
+	//PointersIntro()
 	//PointersAreJustVariables()
+	//DereferencingInPointers()
+	//PointersAreNotReferences()
+
+	//Continue
+
+	PointersArePassByCopyLikeAnythingElse()
+
+	//Continue After Slide
+	//ReceiverPointer()
+	//PointersFinish()
 }

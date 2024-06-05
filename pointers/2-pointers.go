@@ -14,7 +14,7 @@ func PointersAreJustVariables() {
 	b = &a
 
 	//Don't forget every variable has value and memory address. Show in console a and b
-	fmt.Printf("a value is: %v \t and a memory address is: %p \n ", a, &a)
-	fmt.Printf("b value is: %v \t and b memory address is: %p", b, &b)
+	fmt.Printf("a value is :%v \t a memory address is :%p \n", a, &a)
+	fmt.Printf("bPtr value is: %v \t  bPtr memory address is :%p \n", b, &b)
 
 }
